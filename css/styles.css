@@ -1,0 +1,98 @@
+body {
+    font-size: 16px;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+/*Header*/
+#header-nav {
+   border: 2px solid black;
+   border-radius: 0;
+   background-color: silver;
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  margin: 0px;
+;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  padding: 0;
+}
+
+#nav-list h4 {
+  padding: 0px;
+}
+
+#collapsable-nav hr{
+    border: 1px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 98%;
+}
+
+.navbar-header a:hover .navbar-header a:focus{    
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+/*End eader*/
+
+
+/*Home page*/
+h2 {
+    margin-bottom: 20px;
+}
+section div{
+    background: silver;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+section h3 {
+    margin-top: 25px;
+}
+/*End ome page*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    .container div:nth-child(2) {
+        background-color: white;
+        border-top: 2px solid black;
+    }
+}
