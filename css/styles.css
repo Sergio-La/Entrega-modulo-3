@@ -36,6 +36,10 @@ body {
   padding: 0px;
 }
 
+#collapsable-nav{
+  background-color: #D7DBDD;
+}
+
 #collapsable-nav hr{
     border: 1px solid black;
     margin-top: 0;
